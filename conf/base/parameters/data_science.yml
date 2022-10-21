@@ -1,0 +1,18 @@
+data_science:
+  active_modelling_pipeline:
+    model_options:
+      epochs: 10
+      learning_rate: 1.0e-3
+      batch_size: 256
+      num_nodes: 1
+      test_size: 0.2
+      random_state: 666
+      features:
+        - engines
+        - passenger_capacity
+        - crew
+        - d_check_complete
+        - moon_clearance_complete
+        - iata_approved
+        - company_rating
+        - review_scores_rating

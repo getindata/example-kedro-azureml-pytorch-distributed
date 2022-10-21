@@ -1,0 +1,17 @@
+[tool.kedro]
+package_name = "kedro_pytorch_distributed_azure"
+project_name = "kedro-pytorch-distributed-azure"
+project_version = "0.18.3"
+
+[tool.isort]
+profile = "black"
+
+[tool.pytest.ini_options]
+addopts = """
+--cov-report term-missing \
+--cov src/kedro_pytorch_distributed_azure -ra"""
+
+[tool.coverage.report]
+fail_under = 0
+show_missing = true
+exclude_lines = ["pragma: no cover", "raise NotImplementedError"]

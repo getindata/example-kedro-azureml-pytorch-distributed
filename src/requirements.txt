@@ -1,0 +1,5 @@
+kedro[pandas.CSVDataSet, pandas.ExcelDataSet, pandas.ParquetDataSet]~=0.18.3
+scikit-learn~=1.0
+pytorch-lightning~=1.7.7
+kedro-azureml>=0.2.2
+kedro-docker
